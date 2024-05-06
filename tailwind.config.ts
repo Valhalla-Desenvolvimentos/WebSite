@@ -19,7 +19,7 @@ const config = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-norse)"]
+        norse: ["var(--font-norse)"]
       },
       colors: {
         border: "hsl(var(--border))",
@@ -28,11 +28,11 @@ const config = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#0C2853",
           foreground: "hsl(var(--primary-foreground))"
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#54c4ff",
           foreground: "hsl(var(--secondary-foreground))"
         },
         destructive: {
